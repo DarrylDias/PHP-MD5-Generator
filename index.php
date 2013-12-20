@@ -3,6 +3,7 @@
 
 @Created by Darryl Dias
 @aurthor-url: http://darryl.revryl.com/
+@GitHub: https://github.com/DarrylDias/PHP-MD5-Generator
 @Developed in Microsoft WebMatrix
 
 */
@@ -31,14 +32,13 @@ if(isset($_POST['md5-input'])) { # checking if md5-input is set to $_POST.
 ?>
 
 <!DOCTYPE HTML>
-<!--You liked the website soo much that you are readinng this from the source -->
+<!--You liked the website soo much that you are reading this from the source -->
 
 <!--
 
 @Created by Darryl Dias
 @Aurthor-URL: http://darryl.revryl.com/
 @Developed in Microsoft WebMatrix
-
 -->
 
 <html lang="en">
