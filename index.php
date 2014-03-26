@@ -17,7 +17,8 @@ Apache,NginX or Lighttpd.
 
 */
 
-error_reporting(0); # Disabled error reporting for development server.
+error_reporting(0); # Disabled error reporting for production server.
+#error_reporting(E_ALL); uncomment if running on development server.
 
 if(isset($_POST['md5-input'])) { # checking if md5-input is set to $_POST.
     $md5 = md5($_POST['md5-input']); # placing md5 function into $md5 variable.
