@@ -39,7 +39,6 @@ if(isset($_POST['md5-input'])) { # checking if md5-input is set to $_POST.
 
 @Created by Darryl Dias
 @Aurthor-URL: http://darryl.revryl.com/
-@Developed in Microsoft WebMatrix
 -->
 
 <html lang="en">
@@ -62,7 +61,7 @@ if(isset($_POST['md5-input'])) { # checking if md5-input is set to $_POST.
     <input name="md5-input" id="md5-input" type="text" placeholder="Enter something..." class="span10" /><br>
     <input type="submit" value="Generate" class="btn btn-primary" /><br><br />
     <p>MD5 generated : <strong><?php if (empty($_POST ['md5-input'])) { echo $error; } else {echo $md5; } //displaying the md5 generated ?></strong></p>
-    <a href="index.php?=clear" class="btn btn btn btn">Clear</a>
+    <a href="index.php?=clear" class="btn btn-warning">Clear</a>
 </form>
 </div>
 </body>
